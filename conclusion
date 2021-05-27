@@ -1,0 +1,17 @@
+Output:
+
+	Without cap: 1943
+	With cap:    1170
+
+	In MicroSeconds
+
+Results show using Fixed capacity ArrayLists give better performance when adding new elements to
+the list (-33% time).
+
+In cases where the Limit or size of the elements is known, a fixed capacity should always be used.
+
+Example: 
+	ArrayList<Integer> list = new ArrayList<>(500);
+
+
+- H.B.
